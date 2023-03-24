@@ -1,0 +1,16 @@
+.TasksActiveHeader {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.TasksActiveHeader p {
+  color: white;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+}

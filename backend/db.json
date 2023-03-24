@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "email": "test@gmail.com",
+    "password": 12345678,
+    "objConfig": {
+      "existingTasks": [],
+      "totalPomodoro": 0,
+      "focusTask": 0,
+      "alarmVolume": 50,
+      "alarmRepeat": "1",
+      "song": 0,
+      "timerPomodoro": 25,
+      "timerShortBreak": 5,
+      "timerLongBreak": 15,
+      "autoStartBreaks": true,
+      "autoStartPomodoros": true,
+      "longBreakInterval": "2",
+      "autoSwitchTask": true,
+      "bkColor": 1
+    }
+  },
+  {
+    "id": 2,
+    "email": "testando@mail.com",
+    "password": 87654321,
+    "objConfig": {}
+  },
+  {
+    "id": "31a297becdd15d1f040f8885e957d13eb4eef60d",
+    "email": "testeiaki123@gmail.com",
+    "password": "leon4011",
+    "objConfig": {
+      "existingTasks": [
+        {
+          "taskDescription": "dsfgsdfgd",
+          "actPomodoro": 0,
+          "estPomodoro": "3",
+          "statusTask": false,
+          "timeCreateTask": "Fri Mar 24 2023 16:59:23 GMT-0300 (Horário Padrão de Brasília)"
+        },
+        {
+          "taskDescription": "sdfgsgs",
+          "actPomodoro": 0,
+          "estPomodoro": "5",
+          "statusTask": false,
+          "timeCreateTask": "Fri Mar 24 2023 16:59:36 GMT-0300 (Horário Padrão de Brasília)"
+        }
+      ],
+      "totalPomodoro": 0,
+      "focusTask": 1,
+      "alarmVolume": 50,
+      "alarmRepeat": 4,
+      "song": 0,
+      "timerPomodoro": 25,
+      "timerShortBreak": 5,
+      "timerLongBreak": 15,
+      "autoStartBreaks": false,
+      "autoStartPomodoros": true,
+      "longBreakInterval": "2",
+      "autoSwitchTask": false,
+      "bkColor": 2
+    }
+  }
+]

@@ -1,0 +1,10 @@
+.Select_TaskOptions {
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  border-radius: 6px;
+  padding: 10px 0px;
+  right: 0px;
+  top: 40px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 10px 20px, rgb(0 0 0 / 10%) 0px 3px 6px;
+}

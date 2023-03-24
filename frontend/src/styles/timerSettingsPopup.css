@@ -1,0 +1,15 @@
+.TimerSettingsPopup {
+  box-shadow: 0px 0.1px 0px #000;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  color: rgb(80, 80, 80);
+  font-size: 16px;
+}
+
+.TimerInputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

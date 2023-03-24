@@ -1,0 +1,11 @@
+.TaskHighlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TaskHighlight p {
+  color: white;
+  margin: 0px;
+  font-size: 18px;
+}

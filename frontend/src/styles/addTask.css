@@ -1,0 +1,20 @@
+.AddTask {
+  margin-top: 10px;
+}
+
+.bodyTask {
+  border-radius: 6px 6px 0px 0px;
+  background-color: white;
+  height: 154px;
+  padding: 10px 20px 0px;
+}
+
+.footerAddTask {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 64px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 0px 0px 6px 6px;
+  margin-bottom: 20px;
+}

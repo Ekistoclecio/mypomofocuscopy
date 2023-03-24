@@ -1,0 +1,32 @@
+.EditTask {
+  margin-top: 10px;
+  color: #5e5e5e;
+}
+
+.EditTask p {
+  font-weight: 600;
+  margin: 7px 0px;
+}
+
+.bodyEditTask {
+  border-radius: 6px 6px 0px 0px;
+  background-color: white;
+  height: 174px;
+  padding: 10px 20px 0px;
+}
+
+.footerEditTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 0px 0px 6px 6px;
+  margin-bottom: 10px;
+}
+
+.numberInputsEditActiveTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

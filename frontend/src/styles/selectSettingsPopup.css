@@ -1,0 +1,10 @@
+.SelectSettingsPopup {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 6px;
+  padding: 10px 0px;
+  right: 0px;
+  top: 52px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px, rgb(0 0 0 / 12%) 0px 2px 4px;
+}

@@ -1,0 +1,459 @@
+/*Buttons HeaderMain*/
+
+.LogoHeaderMainButton {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 600;
+  font-family: inherit;
+  padding: 0;
+}
+
+.LogoHeaderMainButton span {
+  fill: white;
+  width: 20px;
+  padding: 2px;
+}
+
+.HeaderMainButton {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.HeaderMainButton:active {
+  transform: translateY(2px);
+}
+
+.HeaderMainButton:hover {
+  opacity: 1;
+}
+
+.HeaderMainButton svg {
+  fill: white;
+  width: 20px;
+  margin-right: 4px;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Buttons Timer*/
+
+.HeaderTimerButton {
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 3px 15px;
+  cursor: pointer;
+}
+
+.HeaderTimerButton:active {
+  transform: translateY(2px);
+}
+
+.HeaderTimerButtonActive {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+}
+
+.TimerButton {
+  color: inherit;
+  font-size: 25px;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 60px;
+  cursor: pointer;
+  box-shadow: 0px 5px 0px 0px rgba(215, 215, 215);
+}
+
+.TimerButtonActive {
+  position: relative;
+  box-shadow: none;
+  top: 5px;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Button TaskHighlight*/
+
+.TaskHighlightButton {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(189, 189, 189);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.TaskHighlightButton:hover {
+  color: rgb(230, 230, 230);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Button TasksActiveHeader*/
+
+.TasksOptionsButton {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 4px;
+  width: 28px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.TasksOptionsButton:hover {
+  opacity: 1;
+}
+
+.TasksOptionsButton:active {
+  transform: translateY(2px);
+}
+
+.TasksOptionsButton svg {
+  padding-left: 4px;
+  fill: white;
+}
+
+.TaskOptionsSelectButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 36px;
+  width: 210px;
+  border: none;
+  padding-top: 2px;
+  margin: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.TaskOptionsSelectButton:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.TaskOptionsSelectButton svg {
+  height: 14px;
+  fill: rgb(61, 61, 61);
+  padding: 0px 8px;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Button TasksActive*/
+
+.TaskActiveButton:hover {
+  border-left: 6px solid rgb(204, 204, 204);
+  padding-left: 14px;
+}
+
+.TaskActiveButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  border: none;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.TaskActiveButtonSelect {
+  border-left: 6px solid rgb(34, 34, 34) !important;
+  padding-left: 14px;
+}
+
+.checkTaskButton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 3px 0px 0px 0px;
+}
+
+.checkTaskButton svg {
+  height: 25px;
+  fill: rgb(190, 190, 190);
+}
+
+.checkTaskButton svg:hover {
+  fill: rgb(210, 210, 210);
+}
+
+.checkTaskButtonChecked {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 3px 0px 0px 0px;
+}
+
+.checkTaskButtonChecked svg {
+  height: 25px;
+  fill: rgb(20, 121, 20);
+}
+.checkTaskButtonChecked svg:hover {
+  fill: rgb(40, 141, 40);
+}
+
+.editTaskButton {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.editTaskButton svg {
+  padding-left: 4px;
+  height: 20px;
+  fill: rgb(122, 122, 122);
+}
+
+.editTaskButton:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*addTaskButton*/
+
+.addTaskButton {
+  border: 3px dashed rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 540px;
+  height: 70px;
+  font-size: 16px;
+  opacity: 0.8;
+  margin: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.addTaskButton:hover {
+  opacity: 1;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Add new Task footer Buttons*/
+
+.addTaskCancelButton {
+  background-color: rgb(219, 219, 219);
+  color: rgb(140, 140, 140);
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.addTaskCancelButton:active {
+  transform: translateY(2px);
+}
+
+.addTaskCancelButton:hover {
+  color: rgb(90, 90, 90);
+}
+
+.addTaskSaveButton {
+  height: 35px;
+  width: 70px;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.addTaskSaveButton:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+.addTaskSaveButton:active {
+  transform: translateY(2px);
+}
+
+/*Edit active Task footer Buttons*/
+
+.deleteActiveTaskButton {
+  background-color: rgb(219, 219, 219);
+  color: rgb(140, 140, 140);
+  border: none;
+  border-radius: 4px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.deleteActiveTaskButton:active {
+  transform: translateY(2px);
+}
+
+.deleteActiveTaskButton:hover {
+  color: rgb(90, 90, 90);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*FormLogin Buttons*/
+
+.loginButton {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 311px;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*FormRegister Buttons*/
+
+.RegisterButton {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 311px;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.RegisterButton:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Settings Popup Buttons*/
+
+.closePopupButton {
+  all: unset;
+  width: 16px;
+  cursor: pointer;
+  fill: rgb(190, 190, 190);
+}
+.closePopupButton:hover {
+  fill: rgb(148, 148, 148);
+}
+
+.colorBackgroundButton {
+  border: 0px;
+  height: 25px;
+  width: 25px;
+  margin-top: 13px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+.activeColorBackgroundButton {
+  position: relative;
+  height: 22px;
+  width: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid black;
+  box-sizing: content-box;
+  bottom: 2px;
+}
+
+.colorBackgroundButton:hover {
+  opacity: 0.8;
+}
+
+.saveSettingsButton {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(60, 60, 60);
+  width: 70px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.saveSettingsButton:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.saveSettingsButton:active {
+  transform: translateY(2px);
+}
+
+.openSelectButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  border-radius: 4px;
+  width: 100px;
+  height: 40px;
+  font-family: inherit;
+  color: rgb(48, 48, 48);
+  cursor: pointer;
+}
+
+.openSelectButton svg {
+  fill: rgb(48, 48, 48);
+  width: 10px;
+}
+
+.OptionSelectSoungButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 36px;
+  width: 210px;
+  border: none;
+  padding-top: 2px;
+  margin: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.OptionSelectSoungButton:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+/*-------------------------------------------------------------------*/
